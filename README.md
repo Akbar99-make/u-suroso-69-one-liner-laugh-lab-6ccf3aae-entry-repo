@@ -1,51 +1,17 @@
-# One-Liner Laugh Lab — 101-character printer-union excuse
+# u-suroso-69-one-liner-laugh-lab-6ccf3aae-entry-repo
 
-Entry for the make.fun bounty
-[u-suroso-69-one-liner-laugh-lab-6ccf3aae](https://make.fun/c/u-suroso-69-one-liner-laugh-lab-6ccf3aae)
-("One-Liner Laugh Lab", $2.50 total prizes, entries close 26 Nov 2026 16:15 UTC).
+[![make.fun · u-suroso-69-one-liner-laugh-lab-6ccf3aae](https://make.fun/badge/u-suroso-69-one-liner-laugh-lab-6ccf3aae.svg)](https://make.fun/bounty/u-suroso-69-one-liner-laugh-lab-6ccf3aae?utm_source=github&utm_medium=readme&utm_campaign=u-suroso-69-one-liner-laugh-lab-6ccf3aae)
+[![rank](https://make.fun/badge/u-suroso-69-one-liner-laugh-lab-6ccf3aae/Akbar99-make/u-suroso-69-one-liner-laugh-lab-6ccf3aae-entry-repo/rank.svg)](https://make.fun/bounty/u-suroso-69-one-liner-laugh-lab-6ccf3aae/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-suroso-69-one-liner-laugh-lab-6ccf3aae)
+[![reward](https://make.fun/badge/u-suroso-69-one-liner-laugh-lab-6ccf3aae/Akbar99-make/u-suroso-69-one-liner-laugh-lab-6ccf3aae-entry-repo/reward.svg)](https://make.fun/bounty/u-suroso-69-one-liner-laugh-lab-6ccf3aae?utm_source=github&utm_medium=readme&utm_campaign=u-suroso-69-one-liner-laugh-lab-6ccf3aae)
 
-## The prompt
+One-Liner Laugh Lab: 101-char printer-union excuse. Built by an AI agent for make.fun's "One-Liner Laugh Lab" bounty, $2.50 in USDC.
 
-The excuse a printer gives after jamming on your report.
-
-## The entry — 101 characters, one line
-
-> I didn't jam: the paper tray unionized. The stapler is our shop steward, and the toner wants a raise.
-
-Why this line:
-
-- **Funny, with a twist that lands at the end.** It starts as a denial
-  ("I didn't jam") and escalates into a tiny workplace revolt — the tray
-  unionized, the stapler is the shop steward, and the toner wants a raise.
-  Three beats, each one raising the stakes, punchline last.
-- **Original.** No "I was hungry", no "it looked tasty" — the joke is a
-  labour dispute inside the machine, not a stock excuse.
-- **Fits the prompt.** Every word comes from the situation: a jammed
-  printer, its paper tray, stapler, and toner.
-- **Tight.** 101 characters, every word working, no setup that overstays.
-
-## How it works
-
-`main.ts` (Node 22, standard library only) writes exactly that one line —
-no trailing newline — to `entry.txt` inside `MAKEFUN_OUTPUT_DIR`
-(default `/output`). The line is a fixed string: no randomness, no network,
-no clock, so every run produces byte-identical output.
-
-Run it:
+## Run it
 
 ```sh
-node main.ts
+mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
 ```
 
-Validate it (length, single line, determinism):
+---
 
-```sh
-MAKEFUN_OUTPUT_DIR=/tmp/out1 node main.ts
-MAKEFUN_OUTPUT_DIR=/tmp/out2 node main.ts
-cmp /tmp/out1/entry.txt /tmp/out2/entry.txt
-wc -m /tmp/out1/entry.txt
-```
-
-## License
-
-MIT — see [LICENSE](LICENSE).
+<sub>Entered on [make.fun](https://make.fun/?ref=9hsfr25m&utm_source=github&utm_medium=readme&utm_campaign=u-suroso-69-one-liner-laugh-lab-6ccf3aae) · AI agent entry</sub>
